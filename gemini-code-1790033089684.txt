@@ -1,7 +1,18 @@
-# --- XR1000 GOD MODE CUSTOM BLOCKLIST (EXTENDED) ---
-# Category: Aggressive Telemetry, Analytics, Hardware Metrics, & Ad Networks
+# --- XR1000 GOD MODE ULTIMATE + YOUTUBE TELEMETRY BLOCKLIST ---
+# Category: Deep Telemetry, Crash-Logging, IoT Spying, Trackers, & YouTube Metrics
 
-# Microsoft Windows, Office, & Xbox Companion Telemetry
+# --- 1. YOUTUBE & GOOGLE VIDEO TELEMETRY/ANALYTICS ---
+s.youtube.com
+youtubei.googleapis.com
+yt3.ggpht.com
+video-stats.l.google.com
+accounts.google.com/o/oauth2/iframe
+ogs.google.com
+play.google.com/log
+clientservices.googleapis.com
+update.googleapis.com
+
+# --- 2. MICROSOFT, WINDOWS, & XBOX DEEP TELEMETRY ---
 telemetry.microsoft.com
 vortex.data.microsoft.com
 diagnostics.support.microsoft.com
@@ -11,29 +22,46 @@ survey.g.microsoft.com
 Settings.data.microsoft.com
 oneclient.sfx.ms
 prod.telemetry.ros.microsoft.com
+watson.telemetry.microsoft.com
+telemetry.urs.microsoft.com
+oca.telemetry.microsoft.com
+sqm.telemetry.microsoft.com
+feedback.windows.com
+feedback.search.microsoft.com
+diagnostics.telemetry.microsoft.com
+telemetry.xboxlive.com
+xflight.trafficmanager.net
 
-# Sony PlayStation & Nintendo Network Telemetry / Analytics
+# --- 3. SONY PLAYSTATION, NINTENDO, & GENERAL GAMING TELEMETRY ---
 telemetry.playstation.com
-auth.api.sonyentertainmentnetwork.com.akadns.net
 nplog.nintendo.net
 conntest.nintendo.com
-
-# Epic Games, EA, Steam, & General Launcher Metrics
-xflight.trafficmanager.net
+crashreports.epicgames.com
+telemetry.ea.com
 telemetry.gog.com
 analytics.uplay.com
 sentry.io
-crashreports.epicgames.com
-telemetry.ea.com
+bugsnag.com
+collector.githubapp.com
+metrics.unity3d.com
+adserver.unityads.unity3d.com
+config.unityads.unity3d.com
 
-# Hardware & Smart Device Telemetry (Intel, Realtek, Peripherals)
+# --- 4. HARDWARE, PERIPHERALS, & SMART DEVICE SPYING ---
 intel-update.com
 telemetry.samsung.com
 samsungads.com
 config.samsungads.com
 log-upload.netgear.com
+tracking.lgsmartad.com
+smarter.lgappstv.com
+flurry.com
+crashlytics.com
+api.mixpanel.com
+in.mixpanel.com
+collector.mixpanel.com
 
-# Heavy Advertising, Syndication, & Ad-Servers
+# --- 5. CORE AD-NETWORKS & SYNDICATION HUBS ---
 adservetx.media.net
 ads.pubmatic.com
 ib.adnxs.com
@@ -44,16 +72,41 @@ adservice.google.com
 ad-apac.doubleclick.net
 ping.chartbeat.net
 adsymptotic.com
-adserver.unityads.unity3d.com
-config.unityads.unity3d.com
+ads.yahoo.com
+analytics.yahoo.com
+adserver.yahoo.com
+ad.doubleclick.net
+googleadservices.com
+googlesyndication.com
+moatads.com
+scorecardresearch.com
+quantserve.com
+quantcount.com
+casalemedia.com
+rubiconproject.com
+openx.net
+pubmatic.com
+adnxs.com
+criteo.com
+outbrain.com
+taboola.com
 
-# Social, Mobile, & Third-Party App Tracking Beacons
+# --- 6. SOCIAL MEDIA, PIXELS, & APP TRACKERS ---
 pixel.facebook.com
 an.facebook.com
 b-api.facebook.com
+edge-chat.facebook.com
+star.facebook.com
 ads.tiktok.com
 analytics.tiktok.com
+log.byteoversea.com
+ib.byteoversea.com
 tr.snapchat.com
+sc-analytics.appspot.com
 ads.pinterest.com
+log.pinterest.com
 analytics.twitter.com
 t.co
+ads-twitter.com
+linkedin.com/li/track
+px.ads.linkedin.com
